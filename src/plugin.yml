@@ -4,3 +4,7 @@ author: Xefir Destiny
 website: http://dev.bukkit.org/server-mods/simplyperms/
 version: 1.0
 depend: [ SimplyPerms ]
+commands:
+  setrank:
+    aliases: [ rank, ranker ]
+    description: Commands for manipulating permissions.
