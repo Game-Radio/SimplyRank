@@ -46,7 +46,9 @@ public class SimplyRank extends JavaPlugin implements CommandExecutor {
 			sender.sendMessage(ChatColor.RED + "Wrong syntax! Usage: /rank [Player] [Rank]");
 			return true;
 		} catch (NullPointerException e) {
-			sender.sendMessage(ChatColor.RED + "That player is not online!");
+			if (sender instanceof Player) {
+				sender.sendMessage(ChatColor.RED + "That player is not online!");
+			}
 			return true;
 		}
 	}
