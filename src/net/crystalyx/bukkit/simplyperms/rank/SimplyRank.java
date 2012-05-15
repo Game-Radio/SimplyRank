@@ -33,7 +33,6 @@ public class SimplyRank extends JavaPlugin implements CommandExecutor {
 				for (String group : Arrays.asList(groups)) {
 					api.addPlayerGroup(player, group);
 				}
-				api.refreshPermissions();
 				sender.sendMessage(ChatColor.GREEN + "You've changed " + carget + "'s rank to " + split[1] + ".");
 				target.sendMessage(ChatColor.AQUA + getServer().getPlayer(PlayerName).getDisplayName() + " changed your rank to " + split[1] + "!");
 				getLogger().info(getServer().getPlayer(PlayerName).getDisplayName() + " changed " + carget + "'s rank to " + split[1] + ".");
