@@ -2,7 +2,7 @@ name: SimplyRank
 main: net.crystalyx.bukkit.simplyperms.rank.SimplyRank
 author: Xefir Destiny
 website: http://dev.bukkit.org/server-mods/simplyperms/
-version: 1.0
+version: 1.1
 depend: [ SimplyPerms ]
 commands:
   setrank:
